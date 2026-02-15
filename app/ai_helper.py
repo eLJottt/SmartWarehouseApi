@@ -30,11 +30,3 @@ def generate_description(item_name: str):
     except Exception as e:
         print(f"Błąd AI: {e}")
         return "Nie udało się wygenerować opisu automatycznie."
-
-# def init_ai():
-#     if not API_KEY:
-#         print("Brak klucza API Google w pliku .env!")
-#         return None
-#     return genai.Client(api_key=API_KEY)
-#
-# ai_client = init_ai()
