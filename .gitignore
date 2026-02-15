@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Środowisko wirtualne ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Sekrety i Konfiguracja (NAJWAŻNIEJSZE) ---
+.env
+.flaskenv
+
+# --- Bazy danych ---
+*.db
+*.sqlite3
+
+# --- Edytory (PyCharm, VS Code) ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Systemowe ---
+.DS_Store
+Thumbs.db
